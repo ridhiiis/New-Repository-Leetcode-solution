@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0234-palindrome-linked-list](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0234-palindrome-linked-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0141-linked-list-cycle](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0141-linked-list-cycle) |
+| [0234-palindrome-linked-list](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0234-palindrome-linked-list) |
 ## Sorting
 |  |
 | ------- |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0234-palindrome-linked-list) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0581-shortest-unsorted-continuous-subarray) |
 ## Greedy
 |  |
@@ -67,4 +70,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0581-shortest-unsorted-continuous-subarray) |
+## Recursion
+|  |
+| ------- |
+| [0234-palindrome-linked-list](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0234-palindrome-linked-list) |
 <!---LeetCode Topics End-->
