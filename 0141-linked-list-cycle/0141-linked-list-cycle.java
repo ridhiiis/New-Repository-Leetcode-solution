@@ -1,0 +1,21 @@
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;          // move 1 step
+            fast = fast.next.next;     // move 2 steps
+
+            if (slow == fast) {
+                return true; // pointers met -> cycle exists
+            }
+        }
+
+        return false; // fast reached the end -> no cycle
+    }
+}
