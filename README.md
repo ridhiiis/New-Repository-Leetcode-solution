@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0713-subarray-product-less-than-k](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0713-subarray-product-less-than-k) |
+| [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
@@ -91,8 +92,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
+## Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
