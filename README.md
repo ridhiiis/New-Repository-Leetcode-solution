@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0209-minimum-size-subarray-sum) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0713-subarray-product-less-than-k](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0724-find-pivot-index) |
 | [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
 | [0977-squares-of-a-sorted-array](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0724-find-pivot-index) |
 ## Stack
 |  |
 | ------- |
