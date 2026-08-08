@@ -1,50 +1,76 @@
-import java.util.HashMap;
-
 class Solution {
+
     public String minWindow(String s, String t) {
-        if (s.length() == 0 || t.length() == 0 || s.length() < t.length()) {
+
+        // Edge cases
+        if (s == null || t == null || s.length() == 0 || t.length() == 0
+                || s.length() < t.length()) {
             return "";
         }
 
-        HashMap<Character, Integer> need = new HashMap<>();
-        for (char c : t.toCharArray()) {
-            need.put(c, need.getOrDefault(c, 0) + 1);
-        }
+        // Frequency map for ASCII characters
+        int[] map = new int[128];
 
-        int required = need.size(); // number of DISTINCT characters needed
-        int formed = 0; // number of distinct characters currently satisfied
+        // Total characters still needed
+        int count = t.length();
 
-        HashMap<Character, Integer> windowCounts = new HashMap<>();
-        int left = 0;
+        int start = 0;
+        int end = 0;
         int minLen = Integer.MAX_VALUE;
-        int minStart = 0;
+        int startIndex = 0;
 
-        for (int right = 0; right < s.length(); right++) {
-            char c = s.charAt(right);
-            windowCounts.put(c, windowCounts.getOrDefault(c, 0) + 1);
+        // Store frequency of characters in t
+        for (char c : t.toCharArray()) {
+            map[c]++;
+        }
 
-            if (need.containsKey(c) && windowCounts.get(c).intValue() == need.get(c).intValue()) {
-                formed++;
+        char[] chS = s.toCharArray();
+
+        while (end < chS.length) {
+
+            /*
+             * EXPAND THE WINDOW
+             */
+
+            // If this character was still needed,
+            // decrease the number of remaining characters.
+            if (map[chS[end++]]-- > 0) {
+                count--;
             }
 
-            // window is valid -> try to shrink from the left
-            while (formed == required) {
-                if (right - left + 1 < minLen) {
-                    minLen = right - left + 1;
-                    minStart = left;
+            /*
+             * SHRINK THE WINDOW
+             */
+
+            while (count == 0) {
+
+                // Update the smallest valid window
+                if (end - start < minLen) {
+                    minLen = end - start;
+                    startIndex = start;
                 }
 
-                char leftChar = s.charAt(left);
-                windowCounts.put(leftChar, windowCounts.get(leftChar) - 1);
+                /*
+                 * Remove the leftmost character.
+                 *
+                 * map[x] == 0
+                 *   -> This character was exactly satisfied.
+                 *      Removing it makes the window invalid,
+                 *      so increase count.
+                 *
+                 * map[x] < 0
+                 *   -> We had extra copies.
+                 *      Removing one extra copy is fine.
+                 */
 
-                if (need.containsKey(leftChar) && windowCounts.get(leftChar) < need.get(leftChar)) {
-                    formed--;
+                if (map[chS[start++]]++ == 0) {
+                    count++;
                 }
-
-                left++;
             }
         }
 
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(minStart, minStart + minLen);
+        return minLen == Integer.MAX_VALUE
+                ? ""
+                : new String(chS, startIndex, minLen);
     }
 }
