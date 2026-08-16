@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0022-generate-parentheses](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0844-backspace-string-compare](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0844-backspace-string-compare) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0053-maximum-subarray) |
 | [0918-maximum-sum-circular-subarray](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0918-maximum-sum-circular-subarray) |
 ## Queue
@@ -140,4 +142,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0056-merge-intervals) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0022-generate-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
