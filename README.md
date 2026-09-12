@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0075-sort-colors](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0202-happy-number) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0076-minimum-window-substring) |
+| [0125-valid-palindrome](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0344-reverse-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0424-longest-repeating-character-replacement) |
 | [0844-backspace-string-compare](https://github.com/ridhiiis/New-Repository-Leetcode-solution/tree/master/0844-backspace-string-compare) |
